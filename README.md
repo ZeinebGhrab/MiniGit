@@ -46,22 +46,6 @@ This project serves as a **tester** to verify that your system can:
 This project is designed to run on **Linux-based systems** (e.g., Ubuntu, Debian).  
 It uses POSIX system calls and standard Unix directory management.
 
-> ⚠️ On Windows, use **WSL (Windows Subsystem for Linux)** or adapt the source code for Windows-specific APIs.
-
----
-
-## 📁 Project Structure 
-
-MiniGit/
-├── hash.c
-├── list.c
-├── work.c
-├── main.c
-├── hash.h
-├── list.h
-├── work.h
-└── README.md
-
 ---
 
 ## 🖥️ How to Compile and Run (Linux)
@@ -83,8 +67,21 @@ gcc -o project main.c hash.c list.c work.c
 # ✅ Make sure gcc is installed:
 
 sudo apt install build-essential
+```
 
+---
 
+## 📁 Project Structure 
+
+MiniGit/
+├── hash.c
+├── list.c
+├── work.c
+├── main.c
+├── hash.h
+├── list.h
+├── work.h
+└── README.md
 
 
 
