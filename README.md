@@ -68,20 +68,3 @@ gcc -o projet main.c hash.c list.c work.c
 
 sudo apt install build-essential
 ```
-
----
-
-## 📁 Project Structure 
-
-MiniGit/
-├── hash.c
-├── list.c
-├── work.c
-├── main.c
-├── hash.h
-├── list.h
-├── work.h
-└── README.md
-
-
-
