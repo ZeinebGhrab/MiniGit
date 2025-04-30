@@ -56,3 +56,32 @@ It uses POSIX system calls and standard Unix directory management.
 
 ```bash
 cd /path/to/your/project
+
+2. Compile the source files using gcc:
+
+```bash
+gcc -o project main.c hash.c list.c work.c
+
+3. Execute the program:
+
+```bash
+./project
+
+✅ Make sure gcc is installed:
+
+```bash
+sudo apt install build-essential
+
+---
+
+## 📁 Project Structure 
+MiniGit/
+├── hash.c
+├── list.c
+├── work.c
+├── main.c
+├── hash.h
+├── list.h
+├── work.h
+└── README.md
+
