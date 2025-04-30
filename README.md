@@ -50,31 +50,8 @@ It uses POSIX system calls and standard Unix directory management.
 
 ---
 
-## 🖥️ How to Compile and Run (Linux)
-
-1. Open a terminal and navigate to the project directory:
-
-```bash
-cd /path/to/your/project
-
-2. Compile the source files using gcc:
-
-```bash
-gcc -o project main.c hash.c list.c work.c
-
-3. Execute the program:
-
-```bash
-./project
-
-✅ Make sure gcc is installed:
-
-```bash
-sudo apt install build-essential
-
----
-
 ## 📁 Project Structure 
+
 MiniGit/
 ├── hash.c
 ├── list.c
@@ -84,4 +61,30 @@ MiniGit/
 ├── list.h
 ├── work.h
 └── README.md
+
+---
+
+## 🖥️ How to Compile and Run (Linux)
+
+```bash
+
+# 1. Open a terminal and navigate to the project directory:
+
+cd /path/to/your/project
+
+# 2. Compile the source files using gcc:
+
+gcc -o project main.c hash.c list.c work.c
+
+# 3. Execute the program:
+
+./project
+
+# ✅ Make sure gcc is installed:
+
+sudo apt install build-essential
+
+
+
+
 
