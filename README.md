@@ -58,11 +58,11 @@ cd /path/to/your/project
 
 # 2. Compile the source files using gcc:
 
-gcc -o project main.c hash.c list.c work.c
+gcc -o projet main.c hash.c list.c work.c
 
 # 3. Execute the program:
 
-./project
+./projet
 
 # ✅ Make sure gcc is installed:
 
